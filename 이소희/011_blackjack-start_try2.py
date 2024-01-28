@@ -17,8 +17,6 @@ cards = {"A": 11
          ,"K": 10
         } #, 11, 11, 11, 11]
 
-
-
 # 함수 - 카드 뽑기
 def pick_a_card(deck):
   new_card = random.choice(list(cards.keys()))
